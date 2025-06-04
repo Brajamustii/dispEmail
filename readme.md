@@ -6,17 +6,11 @@ This script is created for free use. Do not sell or distribute it for profit.
 
 1. Clone this repository
 ```bash
-git clone https://github.com/jinwooid/dispEmail.git
-cd emailnator
+git clone https://github.com/Brajamustii/dispEmail.git
 ```
-2. Create data.txt file & fill it with cookies
+2. Automatic Get cookies
 ```bash
-nano data.txt
-```
-format:
-```
-XSRF-TOKEN: <xsrf_token>
-gmailnator_session: <gmailnator_session>
+python autogetcookie.py
 ```
 3. Install requirements
 ```bash
