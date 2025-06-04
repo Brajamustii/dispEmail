@@ -59,7 +59,7 @@ def generate_email():
             # Initialize the SeleniumBase driver with undetected-chromedriver
             driver = Driver(
                 uc=True,                    # Use undetected-chromedriver
-                headless=False,             # Keep visible for debugging
+                headless=True,             # Keep visible for debugging
                 agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
                 incognito=True,             # Use incognito mode
                 disable_csp=True,           # Disable Content Security Policy
